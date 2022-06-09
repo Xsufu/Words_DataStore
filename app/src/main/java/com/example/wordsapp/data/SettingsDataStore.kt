@@ -11,5 +11,6 @@ private val Context.dataStore: DataStore<Preferences> by preferencesDataStore(
 )
 
 class SettingsDataStore(context: Context) {
+    private val IS_LINEAR_LAYOUT_MANAGER = booleanPreferencesKey("is_linear_layout_manager")
 
 }
